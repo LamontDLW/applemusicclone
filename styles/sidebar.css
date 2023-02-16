@@ -1,0 +1,96 @@
+.sidebar {
+    background-color: rgba(243, 243, 243, 0.5);
+    position: fixed;
+    border-right: 0.5px solid rgba(174, 174, 174, 0.2);
+
+    left: 0;
+    bottom: 0;
+    top: 0;
+
+    width: 15vw;
+    height: 100vh;
+
+    padding: 20px 15px;
+    
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+#aml-1  {
+    content:url("../assets/apple-music-img.png");
+
+    height: 25px;
+    width: auto;
+
+    margin-bottom: 15px;
+}
+
+.search-bar {
+    padding: 5px 10px;
+    margin-bottom: 15px;
+
+    border-radius: 0.5rem;
+    border: 0.5px solid rgba(174, 174, 174, 0.2);
+}
+.search-bar::placeholder {
+    opacity: 0.3;
+}
+
+.lbr div {
+    background-color: rgb(241, 241, 241);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 0.5rem;
+}
+.lbr div:hover { background-color: rgba(232, 231, 231, 0.8); cursor: pointer; }
+.lbr div i { margin-right: 10px; color: #f91625;}
+.lbr div h4 { font-size: 13px; font-weight: 300; }
+
+
+.library { margin-top: 30px; }
+.library h1 { font-size: 12px; font-weight:800; color: #565353;}
+
+.library div {
+    background-color: rgb(241, 241, 241);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 0.5rem;
+}
+
+.library div:hover { background-color: rgba(232, 231, 231, 0.8); cursor: pointer; }
+.library div i { margin-right: 10px; color: #f91625;}
+.library div h4 { font-size: 13px; font-weight: 300; }
+
+.playlist { margin-top: 30px; }
+.playlist h1 { font-size: 12px; font-weight:800; color: #565353;}
+
+.playlist div {
+    background-color: rgb(241, 241, 241);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    margin: 5px 0;
+    padding: 10px 8px;
+    border-radius: 0.5rem;
+}
+
+.playlist div:hover { background-color: rgba(232, 231, 231, 0.8); cursor: pointer; }
+.playlist div i { margin-right: 10px; color: #f91625;}
+.playlist div h4 { font-size: 13px; font-weight: 300; }
+.playlist div img { height: 50px; width: auto; border-radius: 5px; margin-right: 10px;}
+
+#rnbnimg { content:url("../assets/rnbnow.png"); }
+#nmdimg { content:url("../assets/newmusicdaily.png"); }
+#tdimg { content:url("../assets/todayshits.png"); }

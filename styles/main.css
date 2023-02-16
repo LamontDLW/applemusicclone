@@ -1,0 +1,54 @@
+.main {
+    margin-top: 8vh;
+    margin-left: 15vw;
+    
+    width: 85vw;
+    height: 100vh;
+
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.main h1 {
+    color: rgba(0, 0, 0, 0.707);
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rgba(174, 174, 174, 0.2);
+}
+
+.top-picks { margin-top: 20px; }
+.top-picks h4 { font-size: 20px; font-weight: bold; }
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+
+    margin-top: 10px;
+}
+
+.display h4 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.display div {
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 400px; 
+    
+    border-radius: 1.4rem;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.display div:hover { cursor: pointer; }
+.card-1 div { background-image: url(../assets/featured.webp); }
+.card-2 div { background-image: url(../assets/upnext-1.jpg); }
+.card-3 div { background-image: url(../assets/mfu.webp); }
+.card-4 div { background-image: url(../assets/new.webp); }
+.card-5 div { background-image: url(../assets/now.jpg); }
+.card-6 div { background-image: url(../assets/upcoming.jpeg); }

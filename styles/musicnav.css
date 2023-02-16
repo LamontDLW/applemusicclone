@@ -1,0 +1,59 @@
+.musicnav {
+    background-color: rgb(255, 255, 255);
+
+    position: fixed;
+    border-left: 0.5px solid rgba(174, 174, 174, 0.2);
+    border-bottom: 1px solid rgba(174, 174, 174, 0.2);
+
+    top: 0;
+    left: 15vw;
+    right: 0;
+    z-index: 10;
+
+    height: 8vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left i {
+    margin: 0 5px;
+    color: rgba(77, 76, 76, 0.7);
+}
+
+.left i:hover { color: rgba(77, 76, 76, 1); cursor:  pointer; }
+
+.player {
+    border: 1px solid rgba(174, 174, 174, 0.2);
+    border-radius: 5px;
+
+    width: 45vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.player img {
+    content: url("../assets/albumcover.jpeg");
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 48px;
+    width: auto;
+}
+
+.player-info  { 
+    text-align: center; 
+    margin-right: calc(45vw / 2);
+}
+.player-info h1 { font-size: 15px; font-weight: normal;}
+.player-info h6 { font-size: 10px; font-weight: lighter; color: rgba(70, 67, 67, 0.566);}
+
+.right i {
+    margin: 0 5px;
+    color: rgba(77, 76, 76, 0.7);
+}
+
+.right i:hover { color: rgba(77, 76, 76, 1); cursor:  pointer; }
